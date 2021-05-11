@@ -5,14 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
-
   <title>Frontend Mentor | Loopstudios landing page</title>
-
 </head>
 
 <body>
@@ -22,66 +19,88 @@
         <img src="assets/images/logo.svg" alt="Logo Loopstudios">
       </div>
       <nav id="menu">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Support</a></li>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
       </nav>
-
-      <div id="banner">
-        <div class="banner__item">
-          <img src="assets/images/desktop/image-hero.jpg" alt="Immersive experiences that deliver">
-          <h1>Immersive experiences that deliver</h1>
-        </div>
+    </div>
+    <div class="banner">
+      <div class="banner__item">
+        <h1>Immersive experiences that deliver</h1>
       </div>
     </div>
   </section>
-
   <section id="leader">
     <div class="container">
-      <img src="assets/images/desktop/image-interactive.jpg" alt="The leader in interactive VR">
-      <h1>The leader in interactive VR</h1>
-      <p>Founded in 2011, Loopstudios has been producing world-class virtual reality
-        projects for some of the best companies around the globe. Our award-winning
-        creations have transformed businesses through digital experiences that bind
-        to their brand.</p>
+      <div class="featured">
+        <img src="assets/images/desktop/image-interactive.jpg" alt="The leader in interactive VR">
+      </div>
+      <div class="content">
+        <h1>The leader in interactive VR</h1>
+        <p>Founded in 2011, Loopstudios has been producing world-class virtual reality
+          projects for some of the best companies around the globe. Our award-winning
+          creations have transformed businesses through digital experiences that bind
+          to their brand.
+        </p>
+      </div>
     </div>
-
   </section>
   <section id="creations">
     <div class="container">
-      <h1>OUR CREATIONS</h1>
-      <div class="btn">SEE ALL</div>
-      <div id="list__creations">
+      <div class="creations__top">
+        <h1>OUR CREATIONS</h1>
+        <div class="btn">SEE ALL</div>
+      </div>
+      <div id="list__creations--first">
         <div class="list__creations--item1">
-          <h2>Deep earth</h2>
+          <a href="#">
+            <h2>Deep <br>earth</h2>
+          </a>
         </div>
         <div class="list__creations--item2">
-          <h2>Night arcade</h2>
+          <a href="#">
+            <h2>Night arcade</h2>
+          </a>
         </div>
         <div class="list__creations--item3">
-          <h2>Soccer team VR</h2>
+          <a href="#">
+            <h2>Soccer team VR</h2>
+          </a>
         </div>
         <div class="list__creations--item4">
-          <h2>The grid</h2>
+          <a href="#">
+            <h2>The <br>grid</h2>
+          </a>
         </div>
+      </div>
+      <div id="list__creations--second">
         <div class="list__creations--item5">
-          <h2>From up above VR</h2>
+          <a href="#">
+            <h2>From up<br>bove VR</h2>
+          </a>
         </div>
         <div class="list__creations--item6">
-          <h2>Pocket borealis</h2>
+          <a href="#">
+            <h2>Pocket borealis</h2>
+          </a>
         </div>
         <div class="list__creations--item7">
-          <h2>The curiosity</h2>
+          <a href="#">
+            <h2>The curiosity</h2>
+          </a>
         </div>
         <div class="list__creations--item8">
-          <h2>Make it fisheye</h2>
+          <a href="#">
+            <h2>Make it fisheye</h2>
+          </a>
         </div>
       </div>
     </div>
   </section>
-
   <section id="footer">
     <div class="container">
       <div id="column__right">
@@ -89,20 +108,28 @@
           <img src="assets/images/logo.svg" alt="Logo Loopstudios">
         </div>
         <nav id="footer__menu">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Support</a></li>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
         </nav>
       </div>
-
       <div id="column__left">
         <div id="sociais">
-          <li><a href="https://facebook.com"><img src="assets/images/icon-facebook.svg" alt="Facebook"></a></li>
-          <li><a href="https://twitter.com"><img src="assets/images/icon-twitter.svg" alt="Twitter"></a></li>
-          <li><a href="https://pinterest.com"><img src="assets/images/icon-pinterest.svg" alt="Pinterest"></a></li>
-          <li><a href="https://instagram.com"><img src="assets/images/icon-instagram.svg" alt="Instagram"></a></li>
+          <ul>
+            <li><a href="https://instagram.com" target="_blank"><img src="assets/images/icon-instagram.svg"
+                  alt="Instagram"></a></li>
+            <li><a href="https://pinterest.com" target="_blank"><img src="assets/images/icon-pinterest.svg"
+                  alt="Pinterest"></a></li>
+            <li><a href="https://twitter.com" target="_blank"><img src="assets/images/icon-twitter.svg"
+                  alt="Twitter"></a>
+            </li>
+            <li><a href="https://facebook.com" target="_blank"><img src="assets/images/icon-facebook.svg"
+                  alt="Facebook"></a></li>
+          </ul>
         </div>
         <div id="copy">
           <p>© 2021 Loopstudios. All rights reserved.</p>
@@ -110,9 +137,10 @@
       </div>
     </div>
   </section>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Mônica Santos</a>.
   </div>
 </body>
 
