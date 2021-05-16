@@ -30,7 +30,7 @@ p {
   color: #808080;
 }
 .container {
-  width: 1024px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -53,29 +53,33 @@ p {
   font-family: "Alata", sans-serif;
 }
 
-#menu {
+#nav {
   display: block;
   width: 55%;
   height: 35px;
   padding: 15px 0 0 200px;
 }
-#menu li {
+#nav li {
   float: left;
   padding-left: 32px;
   list-style-type: none;
 }
 
-#menu li a {
+#nav li a {
   color: white;
   font-family: "Alata", sans-serif;
   font-size: 15px;
 }
-#menu li a:hover {
+#nav li a:hover {
   border-bottom: 2px solid white;
 }
 
+#btn-mobile {
+  display: none;
+}
+
 .banner {
-  width: 1024px;
+  width: 100%;
   margin: 0 auto;
 }
 .banner__item {
@@ -84,6 +88,7 @@ p {
   line-height: 70px;
   font-weight: 300;
   margin: 200px 0 0 20px;
+  position: absolute;
   width: 450px;
   border: 1px solid #fff;
   padding: 40px;
@@ -100,21 +105,22 @@ p {
 
 .content {
   background-color: white;
-  padding: 70px 5px 0 70px;
-  position: relative;
-  z-index: 2;
+  padding: 75px 5px 0 70px;
   margin: -270px 0 0 480px;
   width: 445px;
+  position: relative;
+  z-index: 2;
 }
 
-#creations {
+/*#creations {
   margin-top: 185px;
-}
+}*/
 
 .creations__top {
   display: flex;
   flex-direction: row;
   margin-bottom: 70px;
+  margin-top: 185px;
 }
 
 .btn {
@@ -201,6 +207,9 @@ p {
 .list__creations--item8 {
   background: url(../images/desktop/image-fisheye.jpg) no-repeat;
   width: 256px;
+}
+.btn-see-mob {
+  display: none;
 }
 
 #footer {

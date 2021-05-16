@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/cel.css">
+
   <title>Frontend Mentor | Loopstudios landing page</title>
 </head>
 
@@ -18,8 +20,11 @@
       <div id="logo">
         <img src="assets/images/logo.svg" alt="Logo Loopstudios">
       </div>
-      <nav id="menu">
-        <ul>
+      <nav id="nav">
+        <button id="btn-mobile">
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu">
           <li><a href="#">About</a></li>
           <li><a href="#">Careers</a></li>
           <li><a href="#">Events</a></li>
@@ -29,15 +34,17 @@
       </nav>
     </div>
     <div class="banner">
-      <div class="banner__item">
-        <h1>Immersive experiences that deliver</h1>
+      <div class="container">
+        <div class="banner__item">
+          <h1>Immersive experiences that deliver</h1>
+        </div>
       </div>
     </div>
   </section>
   <section id="leader">
     <div class="container">
       <div class="featured">
-        <img src="assets/images/desktop/image-interactive.jpg" alt="The leader in interactive VR">
+        <img src="assets/images/desktop/image-interactive.jpg" class="image" alt="">
       </div>
       <div class="content">
         <h1>The leader in interactive VR</h1>
@@ -63,12 +70,12 @@
         </div>
         <div class="list__creations--item2">
           <a href="#">
-            <h2>Night arcade</h2>
+            <h2>Night <br>arcade</h2>
           </a>
         </div>
         <div class="list__creations--item3">
           <a href="#">
-            <h2>Soccer team VR</h2>
+            <h2>Soccer <br> team VR</h2>
           </a>
         </div>
         <div class="list__creations--item4">
@@ -85,23 +92,24 @@
         </div>
         <div class="list__creations--item6">
           <a href="#">
-            <h2>Pocket borealis</h2>
+            <h2>Pocket<br> borealis</h2>
           </a>
         </div>
         <div class="list__creations--item7">
           <a href="#">
-            <h2>The curiosity</h2>
+            <h2>The <br>curiosity</h2>
           </a>
         </div>
         <div class="list__creations--item8">
           <a href="#">
-            <h2>Make it fisheye</h2>
+            <h2>Make it <br>fisheye</h2>
           </a>
         </div>
+        <div class="btn-see-mob">SEE ALL</div>
       </div>
     </div>
   </section>
-  <section id="footer">
+  <div id="footer">
     <div class="container">
       <div id="column__right">
         <div id="logo__footer">
@@ -136,12 +144,14 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Mônica Santos</a>.
   </div>
+  <script src="assets/js/btn.js"></script>
 </body>
+
 
 </html>
