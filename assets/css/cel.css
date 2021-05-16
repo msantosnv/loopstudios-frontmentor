@@ -43,6 +43,7 @@
 
   #top.topmenu {
     background: black;
+    z-index: 9;
   }
   #nav {
     height: 35px;
@@ -79,6 +80,7 @@
     width: 90%;
     height: 100vh;
     background: black;
+    z-index: 9;
   }
 
   #btn-mobile {
