@@ -16,8 +16,8 @@ const dimensaoAtual = window.innerWidth;
 function trocarImagem() {
   if (dimensaoAtual <= 768) {
     const img = document.querySelector('.image');
-    img.setAttribute('src', '../assets/images/mobile/mob-image-interactive.jpg');
+    img.setAttribute('src', 'assets/images/mobile/mob-image-interactive.jpg');
 
   }
 }
-trocarImagem()
+trocarImagem();

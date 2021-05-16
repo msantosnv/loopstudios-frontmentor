@@ -78,7 +78,6 @@
     visibility: visible;
     overflow-y: auto;
     width: 90%;
-    height: 100vh;
     background: black;
     z-index: 9;
   }
